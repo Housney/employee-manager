@@ -26,7 +26,6 @@ public class EmployeeController {
 	@GetMapping("/all")
 	public List<Employee> getAllEmployees(){
 		return this.empolyeeService.findAllEmployees();
-		hey;
 	}
 	
 	@GetMapping("/find/{id}")
