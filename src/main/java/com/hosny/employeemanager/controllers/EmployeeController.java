@@ -23,7 +23,7 @@ public class EmployeeController {
 		this.empolyeeService = empolyeeService;
 	}
 	
-	@GetMapping("/all")
+	@GetMapping("/all")f
 	public List<Employee> getAllEmployees(){
 		return this.empolyeeService.findAllEmployees();
 	}
